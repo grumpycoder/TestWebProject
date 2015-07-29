@@ -10,7 +10,7 @@ namespace TestWebProject.Tests
         public void ShouldNotBeEqual()
         {
             var a = 1;
-            var b = 1;
+            var b = 2;
             Assert.AreNotEqual(a, b);
         }
     }
